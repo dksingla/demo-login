@@ -19,12 +19,6 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className={styles.ctas}>
-          <Link href="/test-api" className={styles.tertiary}>
-            Test API Connection
-          </Link>
-        </div>
-
         <div className={styles.credentials}>
           <h2>API Configuration</h2>
           <p><strong>Backend URL:</strong> http://localhost:3001/v1/auth/login</p>
