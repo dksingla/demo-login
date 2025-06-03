@@ -18,13 +18,6 @@ export default function Home() {
             Go to Welcome Page
           </Link>
         </div>
-
-        <div className={styles.credentials}>
-          <h2>API Configuration</h2>
-          <p><strong>Backend URL:</strong> http://localhost:3001/v1/auth/login</p>
-          <p><strong>Method:</strong> POST</p>
-          <p><strong>Expected Body:</strong> {`{ "email": "string", "password": "string" }`}</p>
-        </div>
       </main>
     </div>
   );

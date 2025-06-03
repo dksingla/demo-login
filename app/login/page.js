@@ -115,13 +115,6 @@ export default function Login() {
             {isLoading ? 'Signing in...' : 'Sign In'}
           </button>
         </form>
-
-        <div className={styles.apiInfo}>
-          <h3>API Endpoint:</h3>
-          <p><strong>URL:</strong> http://localhost:3001/v1/auth/login</p>
-          <p><strong>Method:</strong> POST</p>
-          <p><strong>Body:</strong> {`{ email, password }`}</p>
-        </div>
       </div>
     </div>
   );
